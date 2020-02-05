@@ -1,0 +1,17 @@
+# docs
+include DEVELOPING
+include LICENSE
+include TEST-NOTES
+
+# docbook sources
+include doc/custom.xsl
+recursive-include doc *.docbook
+
+# extra conf files used in ebuild
+include cnf/make.conf.example.*
+
+# extra files for tests
+include .portage_not_installed
+
+# extra scripts
+include misc/*
